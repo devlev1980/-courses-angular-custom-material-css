@@ -1,0 +1,20 @@
+<h4><strong>Basic mat-select</strong></h4>
+
+<div class="container">
+  <mat-form-field>
+    <mat-select placeholder="Favorite food" panelClass="testClass" disableOptionCentering>
+      <mat-option *ngFor="let food of foods" [value]="food.value">
+        {{food.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Favorite food" panelClass="testClass_2" disableOptionCentering>
+      <mat-option *ngFor="let food of foods" [value]="food.value">
+        {{food.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+

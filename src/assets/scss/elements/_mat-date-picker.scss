@@ -1,0 +1,38 @@
+.mat-datepicker-toggle {
+  background: url("../../../assets/images/icons/date-picker.svg") no-repeat !important;
+  background-position: 48% 0 !important;
+
+
+
+
+
+}
+::ng-deep.mat-calendar-header{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(0deg, #5F90FF, #5F90FF);
+}
+::ng-deep.mat-calendar-controls {
+  display: flex !important;
+  max-width: 84% !important;
+  margin:0 0 1rem 0 !important;
+  width: 100%;
+
+
+
+}
+::ng-deep button.mat-calendar-period-button{
+  order: 2 !important;
+  color: #ffffff !important;
+
+  svg{
+    fill: #ffffff !important;
+  }
+}
+::ng-deep button.mat-calendar-previous-button{
+  order: 1 !important;
+  color: #ffffff !important;
+}
+::ng-deep button.mat-calendar-next-button{
+  order: 3 !important;
+  color: #ffffff !important;
+}

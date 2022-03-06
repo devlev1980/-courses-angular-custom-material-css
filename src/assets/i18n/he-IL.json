@@ -1,0 +1,414 @@
+{
+  "G": {
+    "ALL": "הכל"
+  },
+  "USER-EMAIL": {
+    "TITLE": "שלום רב,",
+    "DECLINE-USER-SUBTITLE": "הגדרתך כמשתמש בטרקלין ללקוח העסקי נדחתה בהתאם לבקשתך",
+    "DECLINE-CONTENT": "בברכה, חברת החשמל",
+    "CONFIRM-USER-SUBTITLE": "הגדרתך כמשתמש בטרקלין ללקוח העסקי בוצעה בהצלחה!",
+    "CONFIRM-CONTENT": "באפשרותך להתחבר כעת למערכת",
+    "CONFIRM-BUTTON": "כניסה לטרקלין"
+  },
+  "APP-TITLES": {
+    "HOME-PAGE-TITLE": "טרקלין ללקוח העסקי"
+  },
+  "PERSONAL": {
+    "DETAILS": "פרטי לקוח",
+    "CHANGE": "החלפת לקוח",
+    "LOGOUT": "התנתקות",
+    "LOGOUT-TITLE": "שמנו לב שלא היתה פעילות במערכת.",
+    "LOGOUT-MESSAGE-ONE": "שמנו לב שלא היתה פעילות במערכת.",
+    "LOGOUT-MESSAGE-TWO": "כדי לשמור על פרטיותך ניתקנו אותך מהחשבון",
+    "LOGIN": "להתחברות מחדש"
+  },
+  "HOME": {
+    "TITLE": "ברוכים הבאים",
+    "SUBTITLE": "לטרקלין ללקוח העסקי של חברת החשמל",
+    "COMPONENTTITLE": "הודעות"
+  },
+  "CHANGE_USER_DIALOG": {
+    "TITLE": "בחירת לקוח",
+    "COMPONENT_TITLE": "רשימת לקוחות",
+    "YES_BTN": "אישור",
+    "NO_BTN": "ביטול",
+    "SEARCH_CLIENT_LABEL": "חיפוש לקוח",
+    "SEARCH_INPUT_PLACEHOLDER": "שם לקוח, מספר לקוח",
+    "CLIENTS_TABLE_COLUMNS": {
+      "CLIENT_NAME": "שם לקוח",
+      "CLIENT_ID_NUMBER": "מספר לקוח",
+      "CLIENT_ID": "מספר זיהוי לקוח",
+      "CLIENT_TYPE": "סוג זיהוי לקוח"
+    }
+  },
+  "LOGIN": {
+    "TITLE": "ברוכים הבאים לטרקלין ללקוח העסקי",
+    "SUBTITLE": "התחברות למערכת",
+    "EMAIL_LABEL": "כתובת דואר אלקטרוני",
+    "EMAIL_ERROR": "אנא מלא ערך תקין"
+  },
+  "NAV-MENU": {
+    "HOME-PAGE": "עמוד הבית",
+    "GENERAL-AND-MANAGEMENT": "כללי וניהולי",
+    "CONSUPTION-AND-CHARGES": "צריכה וחיובים",
+    "CONTINOUS-REGISTRATION": "רישום רציף",
+    "INVOICE-SEARCH": "איתור חשבונית",
+    "INFORMATION-AND-ACTIONS": "מידע ופעולות",
+    "USERS-MANAGEMENT": "ניהול משתמשים",
+    "PERMISSION-MANAGEMENT": "ניהול הרשאות",
+    "CONTARCTS-MANAGEMENT": "ניהול חוזים",
+    "USFUL-INFORMATION-AND-FORMS": "מידע שימושי וטפסים",
+    "CONTACTS": "אנשי קשר",
+    "MASSAGES-MANAGEMENT": "ניהול הודעות",
+    "MESSAGES-MANAGEMENT-CONTENT": "הודעות תוכן",
+    "MESSAGES-MANAGEMENT-SYSTEM": "הודעות מערכת",
+    "ALERTS": "התראות"
+  },
+  "REPORTS-AND-DATA": {
+    "consumptionAndCharges-TITLE": "צריכה וחיובים",
+    "consumptionAndCharges-SUBTITLE": "נתוני צריכה וחיובים בפילוחים שונים",
+    "alertsDetail-TITLE": "התראות",
+    "alertsDetail-SUBTITLE": "חוזים שאינם בהוראת קבע, חובות שעבר מועד התשלום, תשלום בגין מקדם הספק",
+    "activitiesReports-TITLE": "רמת שימוש במערכת \n+ לקוחות ללא כניסות",
+    "activitiesReports-SUBTITLE": "",
+    "debtsAndPayments-TITLE": "חובות ותשלומים",
+    "debtsAndPayments-SUBTITLE": "רשימת כלל החובות",
+    "generalAndManagement-TITLE": "כללי וניהולי",
+    "generalAndManagement-SUBTITLE": "רשימת החוזים הפעילים, המונים והוראות הקבע",
+    "operationalWorldUsingPages-TITLE": "שימוש בדפים",
+    "operationalWorldUsingPages-SUBTITLE": "",
+    "technicalData-TITLE": "רישום רציף",
+    "technicalData-SUBTITLE": "נתוני רישום רציף בתצוגה יומית, שעתית ורבע שעתית וגרף הביקוש",
+    "unregisteredCustomers-TITLE": "לקוחות שאינם רשומים",
+    "unregisteredCustomers-SUBTITLE": "",
+    "invoiceSearch-TITLE": "איתור חשבונית",
+    "invoiceSearch-SUBTITLE": "איתור חשבונית לפי פרמטרים שונים",
+    "ACTIVITY-REPORTS": "דוחות תפעוליים",
+    "SYSTEM-USING": "רמת שימוש במערכת \n+ לקוחות ללא כניסות",
+    "UNREGISTER-CUSTOMERS": "לקוחות שאינם רשומים",
+    "USING-PAGES": "שימוש בדפים",
+    "DEBTS-AND-PAYMENTS": "חובות ותשלומים"
+  },
+  "ERRORS": {
+    "DEFAULT0": "קיימת שגיאה פנימית בגישה למשאב המבוקש",
+    "DEFAULT400": "מבנה הבקשה למשאב המבוקש אינו תקין",
+    "DEFAULT401-ONE": "שמנו לב שלא הייתה פעילות במערכת.",
+    "DEFAULT401-TWO": "כדי לשמור על פרטיותך ניתקנו אותך מהחשבון",
+    "DEFAULT403": "אינך מורשה לגשת למשאב המבוקש",
+    "DEFAULT404": "המשאב המבוקש אינו קיים",
+    "DEFAULT405": "המשאב המבוקש אינו קיים",
+    "DEFAULT500": "קיימת שגיאה פנימית בגישה למשאב המבוקש",
+    "DEFAULT503": "המערכת אינה זמינה כעת, אנא נסה שוב מאוחר יותר או צור קשר עם מנהל מערכת",
+    "DEFAULT504": "המערכת אינה זמינה כעת, אנא נסה שוב מאוחר יותר או צור קשר עם מנהל מערכת",
+    "NotValidPermission": "אין לך הרשאה מתאימה לביצוע פעולה זו",
+    "PrimaryUserExistForClient": "לא ניתן ליצור יותר ממשתמש ראשי פעיל אחד עבור כל לקוח",
+    "UserNotFound": "אינך מורשה להתחבר למערכת טרקלין",
+    "pbi": "קיימת שגיאה בגישה לדוחות",
+    "YES-BTN": "אישור",
+    "NO-BTN": "ביטול",
+    "DEBTS-AND-PAYMENTS": "חובות ותשלומים",
+    "TITLE": "התראות שלי",
+    "SUBTITLE": "נתוני צריכה וחיובים בפילוחים שונים",
+    "SAME_PRIORITY": "ערך הנבחר קיים תחת הודעה אחרת"
+  },
+  "ROLES": {
+    "Admin": "מנהל מערכת",
+    "CustomerManager": "מת\"ל",
+    "ViewingUser": "צפייה",
+    "ClientUser": "חיצוני",
+    "PrimaryUser": "ראשי",
+    "SecondaryUser": "משני"
+  },
+  "CONTACTS": {
+    "TITLE": "אנשי קשר",
+    "SUB_TITLE": "פרטי מנהלי תיק הלקוח שלך",
+    "TABLE": {
+      "shem_matal": "שם המת״ל",
+      "phone": "טלפון נייד",
+      "office_phone": "טלפון משרד",
+      "mail": "כתובת דואר אלקטרוני",
+      "shem_Ezor": "נפה",
+      "mahoz": " מרכז שירות ",
+      "type": "סוג"
+    }
+  },
+  "CONTRACTS_MANAGEMENT": {
+    "TITLE": "ניהול חוזים",
+    "SUB_TITLE": "הזנת נתונים לצורך ניהול חוזים",
+    "TABLE_TITLE": "רשימת חוזים",
+    "SAVE_BUTTON": "שמור",
+    "CANCEL_BUTTON": "ביטול",
+    "EDIT_BUTTON": "עריכה",
+    "EXPORT_BUTTON": "יצוא לאקסל",
+    "EMPTY_TABLE": "לא קיימים חוזים במערכת עבור לקוח זה",
+    "TABLES_COLUMNS": {
+      "CONTRACT_NUMBER": "מספר חוזה ",
+      "CONTRACT_ADDRESS": "כתובת האתר",
+      "CONTRACT_DELIVERY_PLACE": "תאור מקום הספקה",
+      "CONTRACT_NICK_NAME": "כינוי אתר",
+      "CONTRACT_AREA_SIZE": "שטח במ״ר",
+      "CONTRACT_BUDGET": "סעיף תקציבי",
+      "CONTRACT_MAIN_GROUP": "קבוצה ראשית",
+      "CONTRACT_SUB_GROUP": "תת קבוצה"
+    },
+    "FILTERS": {
+      "TITLE": "סינון וחיפוש",
+      "FILTER_BTN": "סנן",
+      "ACTIVE": "פעילים",
+      "INACTIVE": "לא פעילים",
+      "SEARCH_CONTRACT": "חיפוש חוזה",
+      "SEARCH_PLACEHOLDER": "מספר חוזה/ כתובת אתר",
+      "STATUS": "סטטוס",
+      "SUB_GROUP": "תת קבוצה",
+      "MAIN_GROUP": "קבוצה ראשית",
+      "ALL": "הכל"
+    }
+  },
+  "FILTERS": {
+    "FILTER_BTN": "סנן",
+    "TITLE": "סינון וחיפוש"
+  },
+  "PERMISSIONS": {
+    "PAGE-TITLE": "ניהול הרשאות",
+    "PAGE-SUBTITLE": "עדכון הרשאות למשתמש משני",
+    "FILTER-INPUT-PLACEHOLDER": "שם משתמש, ת.ז",
+    "FILTER-INPUT-LABEL": "חיפוש משתמש",
+    "TITLE": "רשימת משתמשים",
+    "SAVE_BUTTON": "שמור",
+    "EMPTY_TABLE": "אין נתונים להצגה",
+    "CHECK-POPUP-MESSAGE": "נדרש לתייק את מסמך אישור הלקוח במערכת שובל שים לב- לא ניתן לתת הרשאה למשתמש המשני לצפיה בנתוני חובות, אלא לאחר קבלת ותיוק מסמך הבקשה למתן ההרשאה. האם המסמך תויק?",
+    "UNCHECK-POPUP-MESSAGE": "שים לב, הנך עומד לבטל למשתמש המשני את ההרשאה לצפיה בנתוני חובות הלקוח",
+    "TABLES_COLUMNS": {
+      "USERNAME": "שם משתמש",
+      "ID": "תעודת זהות",
+      "DEBT_PERMISSIONS": "הרשאה לחובות",
+      "CREATED_BY": "נוצר ע״י",
+      "CREATED_DATE": " תאריך יצירה ",
+      "UPDATED_BY": "עודכן ע״י",
+      "UPDATED_DATE": "תאריך עדכון"
+    }
+  },
+  "USER_MANAGEMENT": {
+    "TITLE": "ניהול משתמשים",
+    "SUBTITLE": "רשימת המורשים לשימוש במערכת",
+    "ADD_USER_BTN": "הוספת משתמש",
+    "TABLE_TITLE": "רשימת משתמשים",
+    "ACTIVE_USER": "פעיל",
+    "INACTIVE_USER": "לא פעיל",
+    "currentClient": "לקוח נוכחי",
+    "allClients": "כל הלקוחות",
+    "FILTER": {
+      "Title": "סינון וחיפוש",
+      "SearchText": "שם משתמש, ת.ז, דוא\"ל",
+      "SearchLabel": "חיפוש משתמש",
+      "StatusLabel": "סטטוס",
+      "RoleLabel": "סוג משתמש",
+      "ClientLabel": "הצג משתמשים עבור",
+      "ACTIVE_USER": "פעיל",
+      "INACTIVE_USER": "לא פעיל",
+      "currentClient": "לקוח נוכחי",
+      "allClients": "כל הלקוחות"
+    },
+    "EDIT_MODEL": {
+      "ADD_TITLE": "יצירת משתמש",
+      "editTitle": "עדכון פרטי משתמש",
+      "readonlyTitle": "פרטי משתמש",
+      "personalDetails": "פרטים אישיים",
+      "associatedClients": "לקוחות משוייכים",
+      "controlAndUpdates": "בקרה ועדכונים",
+      "updateActivityBtn": "עדכון פרטי יצירה",
+      "userType": "סוג משתמש",
+      "client": "חיצוני",
+      "primary": "ראשי",
+      "secondary": "משני",
+      "idNumber": "מס' ת.ז",
+      "district": "מרכז שירות",
+      "area": "נפה",
+      "position": "תפקיד",
+      "status": "תפקיד",
+      "mailAddress": "כתובת למשלוח דואר",
+      "officePhone": "מספר טלפון משרד",
+      "cellPhone": "מספר טלפון נייד",
+      "fax": "מס' פקס",
+      "clientName": "שם לקוח",
+      "userClientType": "סוג משתמש לקוח",
+      "turnToInactiveTime": "פעיל עד",
+      "onDay": "'יום",
+      "atHour": "בשעה",
+      "deactivisionReason": "סיבה לשינוי הסטאטוס ללא פעיל",
+      "privateSupplier": "מעבר לספק פרטי",
+      "mainUserChange": "שינוי המשתמש הראשי",
+      "other": "אחר",
+      "cantEditMsg": "אירעה שגיאה - לא ניתן <%= mode %> משתמש, אנא נסה שנית מאוחר יותר",
+      "editUserWarning": "הפיכת המשתמש הראשי ללא פעיל תגרום להפיכת המשתמשים המשניים של הלקוח ללא פעילים.",
+      "edit": "לעדכן",
+      "create": "ליצור",
+      "mailSentSuccessfully": "המייל נשלח בהצלחה.",
+      "errAddingUser": ".אירעה שגיאה, אנא צור קשר עם צוות התמיכה בטרקלין",
+      "errAlreadyExist": "המשתמש כבר נמצא ברשימת הלקוחות שלך.",
+      "existingEmailMsg": "דוא\"ל קיים אצל משתמש אחר (פעיל) שקיים במערכת. לא ניתן <%= mode %> את המשתמש",
+      "alreadyExistActiveUser": "כבר קיים משתמש חיצוני ראשי פעיל עבור לקוח זה.",
+      "inactiveSaveQ": "המשתמש יוקם כ\"לא פעיל\". האם לשמור אותו בכל זאת?",
+      "withoutCustomers": "ללא לקוחות משוייכים",
+      "createdBy": "נוצר ע\"י",
+      "createDateTime": "תאריך ושעת יצירה",
+      "createDate": "תאריך יצירה",
+      "lastUpdateBy": "עדכון ע\"י",
+      "lastUpdateDate": "תאריך עדכון אחרון",
+      "tempActive": "פעיל זמנית",
+      "viewingUser": "צפייה",
+      "allowedWatchAllMsg": "משתמש זה רשאי לצפות בנתוני כלל הלקוחות",
+      "confirm": "אישור",
+      "cancle": "ביטול",
+      "primaryChangeStatus": "הפיכת המשתמש הראשי ללא פעיל תגרום להפיכת המשתמשים המשניים של הלקוח ללא פעילים",
+      "close": "סגור",
+      "EMAIL_EXIST": "דוא\"ל קיים אצל משתמש אחר (פעיל) שקיים במערכת, לא ניתן <%= mode %> את המשתמש",
+      "CREATE": "ליצור",
+      "EDIT": "לעדכן",
+      "FIRST_NAME": "שם פרטי",
+      "LAST_NAME": "שם משפחה",
+      "CONECTED_CLIENT_TITLE": "פרטי לקוח מקושר",
+      "EXISTING_ID_NUM_MSG": "משתמש בעל תעודת הזהות שהזנת כבר קיים במערכת. <br> האם תרצה לערוך את פרטי המשתמש:<br><br><span> <%= firstname %> <%= lastname %> </span><br>ת\"ז <span><%= idNumber %></span>",
+      "existingIdSendMailMsg": "משתמש זה כבר קיים במערכת, <br>על מנת להוסיף אותו לרשימת המשתמשים של ארגונך יש צורך באישורו. המערכת תשלח בקשת אישור במייל למשתמש זה, לכתובת המייל השמורה במערכת טרקלין.<br><br>לאחר אישור המשתמש המשני הוא יתווסף אוטומטית לרשימת המשתמשים של ארגונך , וישלח אליך מייל המאשר את הוספתו.<br>לבירורים נוספים אנא פנה למנהל תיק הלקוח שלך."
+    },
+    "confirmUserClient": {
+      "requestApproved": "הוספתך כמשתמש משני בטרקלין ללקוח נקלטה בהצלחה, באפשרותך להתחבר כעת למערכת טרקלין",
+      "requestDeclined": " הבקשה להוספתך כמשתמש משני בטרקלין ללקוח נדחתה על ידך",
+      "alreadyApproved": "המשתמש כבר אושר ללקוח. ",
+      "error": "לא היתה אפשרות להוסיף משתמש  ללקוח. אנא צור קשר עם צוות התמיכה בטרקלין.",
+      "login": "כניסה לטרקלין"
+    },
+    "TABLES_COLUMNS": {
+      "USERNAME": "שם משתמש",
+      "ID": "תעודת זהות",
+      "EMAIL": "דואר אלקטרוני",
+      "CLIENT_NAME": "שם לקוח",
+      "CLIENT_ID": "מספר לקוח",
+      "CLIENT_TYPE": "סוג המשתמש",
+      "STATUS": "סטטוס",
+      "CREATED_BY": "נוצר ע״י"
+    }
+  },
+  "GENERAL": {
+    "SEARCH": "חיפוש",
+    "YES": "כן",
+    "NO": "לא",
+    "OK": "אישור",
+    "EMPTY_TABLE": "אין נתונים להצגה"
+  },
+  "EDIT_USER_DIALOG": {
+    "USER_DETAILS_TITLE": "פרטים אישיים",
+    "TYPE_NAME_LABEL": "סוג משתמש",
+    "OFFICE_PHONE_LABEL": "מספר טלפון משרד",
+    "FAX_LABEL": "מספר פקס",
+    "ID_LABEL": "מס׳ ת.ז",
+    "LASTNAME_LABEL": "שם משפחה",
+    "FIRSTNAME_LABEL": "שם פרטי",
+    "ROLE_LABEL": "תפקיד",
+    "ADDRESS_LABEL": "כתובת למשלוח דואר",
+    "CELLPHONE_LABEL": "מספר טלפון נייד",
+    "STATUS_LABEL": "סטטוס",
+    "EMAIL_LABEL": "דואר אלקטרוני",
+    "CLIENT_DETAILS_TITLE": " פרטי לקוח מקושר",
+    "CLIENT_NAME_LABEL": "שם לקוח",
+    "CHANGE_STATUS_REASON_LABEL": "סיבה לשינוי",
+    "CLIENT_TYPE_LABEL": "סוג משתמש לקוח",
+    "DAY_LABEL": "יום",
+    "HOUR_LABEL": "שעה",
+    "UPDATES_TITLE": "בקרה ועדכונים",
+    "CREATED_BY_LABEL": "נוצר ע\"י:",
+    "CREATED_DATETIME_LABEL": "תאריך ושעת יצירה:",
+    "LAST_UPDATE_DATE_LABEL": "תאריך עדכון אחרון:",
+    "UPDATE_CREATION_DETAILS_LABEL": "עדכון פרטי יצירה",
+    "UPDATED_BY_LABEL": "עדכון ע״י:",
+    "ERROR_NAME": "נא הזן אותיות בלבד",
+    "ERROR_REQUIRED": "שדה חובה",
+    "ERROR_OFFICE_PHONE_MINLENGTH": "נא הזן מינימום 9 תווים",
+    "ERROR_OFFICE_PHONE_MAXLENGTH": "נא הזן עד 10 תווים",
+    "ERROR_CELL_PHONE_MIN_MAXLENGTH": "נא הזן 10 תווים",
+    "ERROR_ID_USER_MAXLENGTH": "נא הזן עד 10 תווים",
+    "ERROR_ID_USER_MINLENGTH": "נא הזן מינימום 9 תווים",
+    "ERROR_ID_VALIDATOR": "תעודת זהות לא תקינה",
+    "ERROR_NUMBERS_ONLY": "נא הזן ספרות בלבד",
+    "ERROR_MAXLENGTH": "נא הזן לא יותר מ 2 ספרות",
+    "ERROR_MAX": "נא הזן שעה תקינה",
+    "ERROR_EMAIL": "נא הזן כתובת דאור אלקטרוני תקין"
+  },
+  "ARE_YOU_SURE_DIALOG": {
+    "TITLE": "האם אתה בטוח שברצונך לבטל את השינויים?"
+  },
+  "USEFULINFO_FORMS": {
+    "TITLE": "מידע שימושי וטפסים",
+    "USEFUL_LINKS_TITLE": "קישורים שימושיים",
+    "USEFUL_FORMS_TITLE": "טפסים שימושיים",
+    "USEFUL_FORMS_DOWNLOAD_LINK": "להורדה",
+    "LINKS": {
+      "VERIFICATION_BOOK": "ספר אמות מידה",
+      "EXPLANATIONS_OF_INFO": "הסברים על אמות מידה",
+      "ELECTRICITY_TARIFFS": "תעריפי החשמל",
+      "SERVICE_INFORMATION": "מידע על סל השירותים",
+      "LIST_OF_TERMS": "רשימת מונחים",
+      "INFORMATION_OF_STANDING_ORDER": "מידע על הוראת קבע",
+      "FEEDS_PORTAL": "פורטל הזמנות",
+      "FAULT_PORTAL": "פורטל תקלות",
+      "PROFESSIONAL_CONFERENCES": "כנסים מקצועיים",
+      "ELECTRICITY_BROCHURES": "מידעונים מקצועיים לחשמל"
+    },
+    "FORMS": {
+      "CUSTOMER_EXCHANGE_REQUEST": "בקשה להחלפת לקוחות",
+      "JOIN_BANK_REQUEST": "בקשה להצטרפות להוראת קבע - אשראי/בנק",
+      "JOIN_BY_EMAIL_REQUEST": "בקשה להצטרפות לשירות חשבונית במייל",
+      "UPDATE_BY_EMAIL_REQUEST": "בקשה לעדכון שירות חשבונית במייל",
+      "CANCEL_BY_EMAIL_REQUEST": "בקשה לביטול שירות חשבונית במייל",
+      "PERMISSION_FOR_SECONDARY_USER_REQUEST": "מתן הרשאה למשתמש משני",
+      "ADVANCE_NOTICE_REQUEST": "בקשה לקבלת הודעה מקדימה על חשבון החשמל התקופתי",
+      "joinToTraklinForBusinessCustomer": "בקשה להצטרפות לטרקלין ללקוח העסקי"
+    }
+  },
+  "SYSTEM_MESSAGE": {
+    "MESSAGE": "כאן תופיע הודעת מערכת, כאן תופיע הודעת מערכת כאן תופיע הודעת מערכת",
+    "CLOSE_BTN_ALT": "כפתור סגירת הודעת מערכת"
+  },
+  "MESSAGES_MANAGEMENT": {
+    "SELECT_INACTIVE": "שים לב, לאחר שמירה ההודעה תיסגר.",
+    "TITLE": "ניהול הודעות תוכן",
+    "TAB_TITLE_ACTIVE": "פעיל",
+    "TAB_TITLE_NOT_ACTIVE": "לא פעיל",
+    "TABLES_COLUMNS": {
+      "CREATED_DATE": "תאריך יצירה",
+      "TITLE": "כותרת",
+      "CONTENT": "תוכן",
+      "DOC_LINK": "קישור למסמך",
+      "DOC_NAME": "שם תצוגה לקישור",
+      "START_DATE": "תאריך התחלה",
+      "END_DATE": "תאריך סיום",
+      "PRIORITY": "תעדיף",
+      "STATUS": "סטטוס"
+    },
+    "ACTIONS": {
+      "ADD_BTN": "הוספה",
+      "EDIT_BTN": "עריכה",
+      "SAVE_BTN": "שמירה",
+      "CANCEL_BTN": "ביטול"
+
+
+    }
+  },
+  "SYSTEM_MESSAGES": {
+    "TITLE": "ניהול הודעות מערכת"
+
+  },
+  "BILL_PAYMENT":{
+    "ERROR": "לא ניתן לגשת לדף תשלום חשבונית, אנא פנה למנהל מערכת."
+  },
+  "ACCESSIBILITY": {
+    "LOGOUT_BTN": "כפתור יציעה",
+    "LOGIN_BTN": "כפתור כניסה",
+    "MENU_BTN": "כפתור פתיחת תת תפריט",
+    "SIDEMENU_BTN": "פתיחת תפריט צד",
+    "FILTER_BTN": "כפתור סינון",
+    "CLOSE_BTN": "כפתור סגירה",
+    "SPINNER": "נא להמתין,מייבא נתונים"
+
+  }
+}

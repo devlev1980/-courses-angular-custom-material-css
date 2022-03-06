@@ -1,0 +1,174 @@
+@import "colors";
+@import "mixins";
+@import "../elements/mat-select-dialog";
+@import "../elements/mat-select";
+
+// Select
+.cdk-overlay-pane .testClass,.cdk-overlay-pane .testClass_2{
+  margin-top: 14% !important;
+  margin-left: 8%;
+  min-width: calc(100% + 0px) !important;
+  mat-option{
+    color: white;
+
+  }
+}
+
+.cdk-overlay-pane .testClass {
+  background-color: red !important;
+
+}
+
+.cdk-overlay-pane .testClass_2 {
+  background-color: green !important;
+
+}
+
+// Radio
+.mat-radio-outer-circle{
+  border: 1px solid #2B3CB7 !important;
+}
+.mat-radio-inner-circle{
+  border: 1px solid #2B3CB7;
+  background: #2B3CB7 !important;
+}
+
+//Checkbox
+span.mat-checkbox-inner-container:hover{
+  background-color: transparent;
+}
+.mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-accent .mat-pseudo-checkbox-checked, .mat-accent .mat-pseudo-checkbox-indeterminate, .mat-pseudo-checkbox-checked, .mat-pseudo-checkbox-indeterminate {
+  background-color: red !important;  /* Red background for example */
+}
+.mat-checkbox-frame {
+  background-color: transparent;  /* Transparent background for checkbox frame*/
+  transition: border-color 90ms cubic-bezier(0, 0, 0.8, 0.8);
+  border-width: 2px;
+  border-style: solid;
+}
+.mat-checkbox-frame {
+  border-color: rgba(0,0,0,.122);
+}
+
+// Autocomplete
+
+.mat-form-field.yl_autocomplete{
+  height: 45px;
+}
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: transparent;
+  border: 1px solid #c2c2c2;
+  height: 40px;
+  padding:0 !important;
+}
+.mat-form-field-appearance-fill .mat-form-field-underline::before {
+  display: none !important;
+}
+.mat-form-field-ripple {
+  display: none; // hide underline on hover
+}
+.mat-autocomplete-panel.mat-autocomplete-visible {
+  visibility: visible;
+  background: red; // change background of autocomplete
+
+  .mat-option{
+    color: #ffffff;
+
+  }
+  .mat-active{
+    color: #ffffff !important;
+
+    &:hover{
+      color: #213D55 !important;
+    }
+  }
+  .mat-option:hover{
+    background: #ffffff !important; //change
+    color: #213D55;
+  }
+
+
+
+}
+
+// Datepicker
+.mat-datepicker-content .mat-calendar {
+  background-color: red;
+
+
+
+}
+.mat-calendar-body-label,.mat-calendar-header,.mat-calendar-table-header,.mat-calendar-body-cell-content,{
+  color: #ffffff;
+}
+.mat-calendar-previous-button,.mat-calendar-next-button{
+  color: #ffffff !important;
+}
+.mat-calendar-body-today{
+  background-color: #c2c2c2 !important;
+  color: #213D55;
+}
+.mat-calendar-body-selected{
+  border: 1px solid #ffffff;
+}
+.mat-calendar-arrow{
+  fill: #ffffff;
+}
+.mat-datepicker-popup{
+  //bottom: -75px !important;
+}
+
+// Slide toggle
+.mat-slide-toggle-bar{
+  background-color: red;
+}
+.mat-slide-toggle-thumb{
+  background-color: darkblue;
+}
+.mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-thumb{
+  background: yellow;
+}
+.mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-bar{
+  background-color: green;
+}
+
+// Tabs
+.mat-tab-label-active{
+  background-color: orange;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background-color: transparent;
+}
+.mat-tab-nav-bar, .mat-tab-header{
+  //border-bottom: none;
+  margin-bottom: 2rem;
+  border: 1px solid #c2c2c2;
+
+}
+
+// Tooltip
+
+.tooltipBg{
+  background-color:  blue;
+  font-size: 15px;
+  padding: 10px 20px;
+  position: relative;
+  min-width: 100px;
+  text-align: center;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    display: block;
+    transform: rotate(45deg) translateX(-50%);
+    left: 50%;
+  }
+}
+
